@@ -1,0 +1,21 @@
+task                            : singlepoint  
+phonon_fine_method              : supercell
+PHONON_METHOD 			: FINITEDISPLACEMENT
+phonon_calc_lo_to_splitting     : false  
+phonon_sum_rule                 : true  
+calculate_born_charges          : false  
+phonon_force_constant_ellipsoid : 1.0
+
+cut_off_energy    : 700 eV
+elec_method       : DM  
+smearing_width    : 0.04 eV  
+nextra_bands      : 4  
+spin_polarized    : false  
+ 
+opt_strategy      : speed  
+num_dump_cycles   : 0  
+xc_functional     : PW91
+
+thermo_t_start	  		: 0 K
+thermo_t_stop			: 300 K
+thermo_t_spacing		: 3 K
